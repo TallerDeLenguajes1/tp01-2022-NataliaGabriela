@@ -122,6 +122,7 @@ artefactos /
 StyleCopReport.xml
 
 # Archivos creados por Visual Studio
+*vscode /
 * _i.c
 *_ordenador personal
 *_S.S
@@ -400,5 +401,6 @@ healthchecksdb
 
 # Carpeta de respaldo para la herramienta de conversión de referencia de paquete en Visual Studio 2017
 MigrationBackup /
+*.exe
 
 # Fin de https://www.gitignore.io/api/c,visualstudio
