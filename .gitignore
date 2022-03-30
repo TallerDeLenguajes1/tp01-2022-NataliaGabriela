@@ -1,33 +1,39 @@
 
-# Creado por https://www.toptal.com/developers/gitignore/api/exercism,visualstudiocode
-# Editar en https://www.toptal.com/developers/gitignore?templates=exercism,visualstudiocode
+# Created by https://www.toptal.com/developers/gitignore/api/executable,visualstudiocode
+# Edit at https://www.toptal.com/developers/gitignore?templates=executable,visualstudiocode
 
-### Ejercicio ###
-# plantilla de gitignore para el proyecto Exercism
-# sitio web: https://exercism.io/
-
-# Ignorar la carpeta .exercism que contiene datos confidenciales
-.ejercicio
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
 
 ### VisualStudioCode ###
+vscode
 .vscode/*
-!.vscode/configuración.json
-!.vscode/tareas.json
-!.vscode/lanzamiento.json
-!.vscode/extensiones.json
-!.vscode/*.fragmentos de código
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# Historial local para Visual Studio Code
-.historia/
+# Local History for Visual Studio Code
+.history/
 
-# Extensiones de código de Visual Studio integradas
+# Built Visual Studio Code Extensions
 *.vsix
 
-### Parche de VisualStudioCode ###
-# Ignorar todo el historial local de archivos
-.historia
-.ionuro
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-# Compatibilidad con el alcance del fragmento de código del proyecto
+# Support for Project snippet scope
 
-# Fin de https://www.toptal.com/developers/gitignore/api/exercism,visualstudiocode
+# End of https://www.toptal.com/developers/gitignore/api/executable,visualstudiocode
