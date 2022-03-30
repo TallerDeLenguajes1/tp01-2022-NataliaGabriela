@@ -12,7 +12,7 @@ int main(){
     tama=sizeof(var1);
     printf("Tamaño: %d\n",tama);
 
-    scanf(" %c");
+    
     getchar();
     return 0;
 }
