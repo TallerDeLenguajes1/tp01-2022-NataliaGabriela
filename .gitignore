@@ -1,0 +1,33 @@
+
+# Creado por https://www.toptal.com/developers/gitignore/api/exercism,visualstudiocode
+# Editar en https://www.toptal.com/developers/gitignore?templates=exercism,visualstudiocode
+
+### Ejercicio ###
+# plantilla de gitignore para el proyecto Exercism
+# sitio web: https://exercism.io/
+
+# Ignorar la carpeta .exercism que contiene datos confidenciales
+.ejercicio
+
+### VisualStudioCode ###
+.vscode/*
+!.vscode/configuración.json
+!.vscode/tareas.json
+!.vscode/lanzamiento.json
+!.vscode/extensiones.json
+!.vscode/*.fragmentos de código
+
+# Historial local para Visual Studio Code
+.historia/
+
+# Extensiones de código de Visual Studio integradas
+*.vsix
+
+### Parche de VisualStudioCode ###
+# Ignorar todo el historial local de archivos
+.historia
+.ionuro
+
+# Compatibilidad con el alcance del fragmento de código del proyecto
+
+# Fin de https://www.toptal.com/developers/gitignore/api/exercism,visualstudiocode
